@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: d496d85c1ac48b146b32907b06ffd068, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23042962, g: 0.24345061, b: 0.26649874, a: 1}
+  m_IndirectSpecularColor: {r: 0.21542442, g: 0.22124031, b: 0.23699123, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2850,6 +2850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2211367832879182730, guid: 9a91cf1db263ff24389e30cf2be40eb7, type: 3}
+      propertyPath: sprintControl
+      value: 
+      objectReference: {fileID: -1738296969707731493, guid: 53757f49a050bde42a76bebe55cc21a9, type: 3}
     - target: {fileID: 2211367832879182730, guid: 9a91cf1db263ff24389e30cf2be40eb7, type: 3}
       propertyPath: characterCamera
       value: 

@@ -8,7 +8,7 @@ public class ButtonBehaviour : MonoBehaviour
  
     public void onStartButtonBehaviour()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void onControlsButtonBehaviour()
