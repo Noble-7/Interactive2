@@ -144,6 +144,11 @@ public class ThirdPersonMovement : MonoBehaviour
             }
         }
 
+        if (jumpControl.action.WasReleasedThisFrame())
+        {
+            playerVelocity.y = -1.0f;
+        }
+
         if (colorControl.action.triggered)
         {
 
