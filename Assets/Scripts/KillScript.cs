@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class KillScript : MonoBehaviour {
-	[SerializeField] Transform spawnPoint;
-	void OnCollisionEnter (Collision c)
-	{
-		if (c.gameObject.tag == "Player") 
-		{
-			c.transform.position = spawnPoint.position;
-			c.transform.rotation = spawnPoint.rotation;
-		}
+public class KillScript : MonoBehaviour
+{
 
-	}
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Trigger enter");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Player reset");
+
+            SceneManager.LoadScene("SampleScene");
+
+        }
+    }
 }
