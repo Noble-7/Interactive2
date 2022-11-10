@@ -1685,11 +1685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 690045230862117887, guid: 47f9f6903172b5344b8b30a69a83fac8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000002406283
+      value: -0.000000061890916
       objectReference: {fileID: 0}
     - target: {fileID: 690045230862117887, guid: 47f9f6903172b5344b8b30a69a83fac8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000000044679314
+      value: -0.000000011491761
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47f9f6903172b5344b8b30a69a83fac8, type: 3}
@@ -1963,6 +1963,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 8243189937992534796, guid: b34cccd039c5f294ebaeb7458532fa9d, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243189937992534796, guid: b34cccd039c5f294ebaeb7458532fa9d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e9c7bc26c21d8840ae54eab0f9d76fd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b34cccd039c5f294ebaeb7458532fa9d, type: 3}
 --- !u!1001 &9007919355403613553
